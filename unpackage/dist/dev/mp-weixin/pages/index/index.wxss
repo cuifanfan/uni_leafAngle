@@ -1,0 +1,41 @@
+.all {
+  padding: 20rpx;
+  font-size: 40rpx;
+}
+.all .image {
+  box-sizing: border-box;
+  border: 2rpx dashed #666666;
+  height: 440rpx;
+}
+.all .image .imageText {
+  text-align: center;
+  line-height: 440rpx;
+}
+.all .image .imgSrc {
+  height: 440rpx;
+  text-align: center;
+}
+.all .image .imgSrc image {
+  height: 100%;
+}
+.btn {
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.show_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30rpx 0;
+}
+.set_img {
+  width: 50%;
+}
+.answer {
+  text-align: center;
+}
+.answer_num {
+  color: red;
+}
+
